@@ -1,0 +1,18 @@
+---
+title: "Samsung Codebook"
+author: "Reed"
+date: "September 24, 2016"
+output: html_document
+---
+
+There are two data files produced by this assignment; a larger file called TidyData.txt which contains the subject numbers (thirty people in all; first column called "ID") and the particular activity (column 2 = "Activity") which are coded from 1 to 6 which corresponds to specific activites (1=Walking, 2=Walking upstrairs, 3=Walking downstairs, 4=Sitting, 5=Standing and 6 = Laying). 
+There are  additional columns which contain the mean and standard deviations for periods of time for the readings of the movement sensors.  Movements occur in x-y-z space (three dimenstional) so each type of sensor output tells the dimension.
+
+These data are tidy because each variable is a column (e.g., Subject ID), each observation is a row and each type of observational unit is a table.
+
+In the second data file (averages.txt), all the observation periods are collapsed into the mean and sd so that there is a single row for each person doing each activity.  Personally I am not sure if you can average sd but that was what we were asked to do.
+
+Thanks for your effort to grade this assignment.
+
+
+
